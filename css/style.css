@@ -2051,6 +2051,7 @@ button[class*=-dark]:hover {
 .hero_section p {
   max-width: 520px;
   margin-bottom: 42px;
+  margin-top: 40px;
   font-size: var(--bs-body-font-size-md);
   line-height: var(--bs-body-line-height-md);
 }
