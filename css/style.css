@@ -3253,7 +3253,7 @@ Responsive For Mobile & Tablet Devices
     margin-bottom: 20px;
   }
   .image_widget:has(.bg_primary_light) {
-    padding: 0 45px 45px 0;
+    padding: 29rem 45px 45px 0;
   }
   .image_widget:has(.bg_secondary_light) {
     padding: 0 30px 45px 45px;
