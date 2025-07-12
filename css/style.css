@@ -1723,7 +1723,11 @@ button[class*=-dark]:hover {
   color: var(--bs-primary);
 }
 .accordion .accordion-item .accordion-button:not(.collapsed):after {
-  content: "\f068";
+  content: "-";
+  background: none;
+  font-family: "Font Awesome 5 Pro";
+  font-size: 35px;
+  padding: 0 0 5px;
 }
 .accordion .accordion-item .accordion-body {
   padding: 0 0 22px;
