@@ -3506,6 +3506,9 @@ Responsive For Mobile & Tablet Devices
   .container {
     max-width: 730px;
   }
+  .request_appt_button {
+    display: none;
+  }
   .site_header {
     padding: 15px 0px;
   }
@@ -3680,6 +3683,9 @@ Responsive For Mobile & Tablet Devices
     top: 68px;
   }
   .header_btns_group > li:not(:first-child) {
+    display: none;
+  }
+  .request_appt_button {
     display: none;
   }
   .hero_section {
