@@ -2286,6 +2286,7 @@ button[class*=-dark]:hover {
 }
 
 .pricing_item {
+  text-align: center;
   z-index: 1;
   overflow: hidden;
   position: relative;
