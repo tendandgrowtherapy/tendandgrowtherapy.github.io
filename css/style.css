@@ -1619,10 +1619,32 @@ button[class*=-dark]:hover {
   color: var(--bs-secondary);
   font-family: var(--bs-font-heading);
 }
+
 .counter_item .counter_title {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 5px;
+}
+
+.spwidget-button-wrapper {
+  text-align: center;
+}
+
+.spwidget-button {
+  display: inline-block;
+  padding: 12px 24px;
+  color: #fff !important;
+  background: var(--bs-secondary);
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.spwidget-button:active {
+  color: rgba(255, 255, 255, .75) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .15) inset;
 }
 
 .hero_section_counter {
