@@ -2043,9 +2043,6 @@ button[class*=-dark]:hover {
 ================================================== */
 /* 4.01 - Page Hero Section - Start
 ================================================== */
-.hero_section {
-  padding: 200px 0 160px;
-}
 .hero_section .heading_text {
   font-size: 54px;
   font-weight: 800;
@@ -2076,6 +2073,10 @@ button[class*=-dark]:hover {
 .hero_section .shape_leaf {
   top: 160px;
   left: -50px;
+}
+
+.hero_image {
+  width: 30rem;
 }
 
 .hero_image_wrap {
