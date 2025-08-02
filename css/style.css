@@ -1626,25 +1626,20 @@ button[class*=-dark]:hover {
   margin-bottom: 5px;
 }
 
-.spwidget-button-wrapper {
-  text-align: center;
+.contact_form {
+  width: 100%;
 }
 
-.spwidget-button {
-  display: inline-block;
-  padding: 12px 24px;
-  color: #fff !important;
-  background: var(--bs-secondary);
-  border: 0;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 600;
-  text-decoration: none;
+@media screen and (min-width: 500px) {
+  .contact_form {
+    height: 1150px;
+  }
 }
 
-.spwidget-button:active {
-  color: rgba(255, 255, 255, .75) !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .15) inset;
+@media screen and (max-width: 500px) {
+  .contact_form {
+    height: 1700px;
+  }
 }
 
 .hero_section_counter {
@@ -2758,7 +2753,7 @@ button[class*=-dark]:hover {
 ================================================== */
 .consultation_form {
   overflow: hidden;
-  padding: 120px 35px;
+  padding: 120px 35px 25px 35px;
   border-radius: var(--bs-border-radius-xxl);
 }
 .consultation_form .section_heading {
