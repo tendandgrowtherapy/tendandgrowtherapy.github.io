@@ -156,6 +156,10 @@ video {
   max-width: 100%;
 }
 
+.book-img {
+  width: 60%;
+}
+
 img {
   border: none;
   height: auto;
@@ -1219,7 +1223,7 @@ button[class*=-dark]:hover {
 }
 .image_widget .image_shape {
   width: 85%;
-  height: 85%;
+  height: 100%;
   z-index: -1;
   position: absolute;
 }
@@ -1628,6 +1632,10 @@ button[class*=-dark]:hover {
 
 .contact_form {
   width: 100%;
+}
+
+.hero_2 {
+  width: 80%
 }
 
 @media screen and (min-width: 500px) {
@@ -3271,7 +3279,7 @@ Responsive For Mobile & Tablet Devices
     margin-bottom: 20px;
   }
   .image_widget:has(.bg_primary_light) {
-    padding: 29rem 45px 45px 0;
+    padding: 54px 45px 45px 0;
   }
   .image_widget:has(.bg_secondary_light) {
     padding: 0 30px 45px 45px;
