@@ -62,6 +62,31 @@
 */
 /* Table Of Content - end
 ================================================== */
+@font-face {
+  font-family: Bavista Soulare;
+  src: URL('../fonts/bavista-soulare/Bavista_Soulare.ttf') format('truetype'),
+       URL('../fonts/bavista-soulare/Bavista_Soulare.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Elsie;
+  src: URL('../fonts/elsie/Elsie-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Traffolight;
+  src: URL('../fonts/traffolight/Traffolight.otf') format('opentype');
+}
+
+.logo_title {
+  font-family: Traffolight;
+  font-size: 2rem;
+}
+
+.logo_img {
+  width: 50px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 :root {
   --bs-body-color: #51565D;
@@ -84,7 +109,7 @@
   --bs-link-hover-color-rgb: 0,207,195;
   --bs-body-font-family: "Open Sans", sans-serif;
   --bs-font-body: "Open Sans", sans-serif;
-  --bs-font-heading: "Open Sans", sans-serif;
+  --bs-font-heading: "Traffolight";
   --bs-body-font-weight: 400;
   --bs-body-font-size: 18px;
   --bs-body-line-height: 28px;
