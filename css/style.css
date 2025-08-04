@@ -1824,6 +1824,28 @@ button[class*=-dark]:hover {
 ================================================== */
 /* 3.01 - Site Header - Start
 ================================================== */
+.site_header .request_appt_button {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.site_header.sticky .request_appt_button {
+  opacity: 1;
+  visibility: visible;
+}
+
+.site_header .request_appt_button_mobile {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.site_header.sticky .request_appt_button_mobile {
+  opacity: 1;
+  visibility: visible;
+}
+
 .site_header {
   top: 0;
   left: 0;
