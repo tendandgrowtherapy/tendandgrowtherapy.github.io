@@ -458,8 +458,8 @@ mark {
   border-radius: var(--bs-border-radius-pill);
 }
 .backtotop .scroll i {
-  -webkit-animation: bttIconMover 1s infinite alternate;
-          animation: bttIconMover 1s infinite alternate;
+  -webkit-animation: bttIconMover 0.2s infinite alternate;
+          animation: bttIconMover 0.2s infinite alternate;
 }
 
 /* 2.03 - Backtotop Button - End
