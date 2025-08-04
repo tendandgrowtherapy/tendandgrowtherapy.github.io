@@ -2119,6 +2119,9 @@ button[class*=-dark]:hover {
 ================================================== */
 /* 4.01 - Page Hero Section - Start
 ================================================== */
+.hero_section {
+  margin-top: 120px;
+}
 .hero_section .heading_text {
   font-size: 54px;
   font-weight: 800;
@@ -3296,7 +3299,7 @@ Responsive For Mobile & Tablet Devices
     padding: 20px;
   }
   .hero_section {
-    padding: 160px 0 100px;
+    padding: 20px 0 100px;
   }
   .hero_section .shape_leaf {
     top: 110px;
@@ -3609,7 +3612,7 @@ Responsive For Mobile & Tablet Devices
     padding: 12px 20px;
   }
   .hero_section {
-    padding: 140px 0 100px;
+    padding: 0px 0 100px;
   }
   .hero_image_wrap {
     padding: 30px;
@@ -3743,7 +3746,7 @@ Responsive For Mobile & Tablet Devices
     display: none;
   }
   .hero_section {
-    padding: 120px 0 100px;
+    padding: 0px 0 100px;
   }
   .backtotop .scroll {
     width: 38px;
