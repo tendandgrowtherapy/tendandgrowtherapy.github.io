@@ -447,8 +447,8 @@ mark {
   border-radius: var(--bs-border-radius-pill);
 }
 .backtotop .scroll i {
-  -webkit-animation: bttIconMover 0.2s infinite alternate;
-          animation: bttIconMover 0.2s infinite alternate;
+  -webkit-animation: bttIconMover 0.1s infinite alternate;
+          animation: bttIconMover 0.1s infinite alternate;
 }
 
 /* 2.03 - Backtotop Button - End
@@ -3555,6 +3555,9 @@ Responsive For Mobile & Tablet Devices
 /* Media Screen 991px - Start
 ================================================== */
 @media screen and (max-width: 991px) {
+  .pic_two{
+    margin-top: 60px;
+  }
   .container {
     max-width: 730px;
   }
