@@ -3556,7 +3556,7 @@ Responsive For Mobile & Tablet Devices
 ================================================== */
 @media screen and (max-width: 991px) {
   .pic_two{
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .container {
     max-width: 730px;
