@@ -63,17 +63,6 @@
 /* Table Of Content - end
 ================================================== */
 @font-face {
-  font-family: Bavista Soulare;
-  src: URL('../fonts/bavista-soulare/Bavista_Soulare.ttf') format('truetype'),
-       URL('../fonts/bavista-soulare/Bavista_Soulare.otf') format('opentype');
-}
-
-@font-face {
-  font-family: Elsie;
-  src: URL('../fonts/elsie/Elsie-Regular.ttf') format('truetype');
-}
-
-@font-face {
   font-family: Traffolight;
   src: URL('../fonts/traffolight/Traffolight.otf') format('opentype');
 }
